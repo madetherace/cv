@@ -1,0 +1,78 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+nav {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+}
+
+nav a {
+  margin: 10px 15px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: auto; 
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #777;
+  border-top: 1px solid #ccc;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.albumContainer {
+  margin: 0 auto;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.albumTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+ 
+}
+
+.albumAuthor {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.albumAuthor a {
+  color: #007bff;
+  
+}
+
+.albumGrid {
+  gap: 20px;
+}
+.userPage {
+  margin-left: 10px;
+}
+.notFound {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.notFound a {
+  color: #007bff;
+  text-decoration: none;
+}
